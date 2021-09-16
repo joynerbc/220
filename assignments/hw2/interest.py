@@ -24,5 +24,6 @@ def main():
     monthly_interest_charge = step_four * monthly_interest_rate
     print(round(monthly_interest_charge, 2))
 
+
 if __name__ == '__main__':
     main()
