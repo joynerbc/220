@@ -3,7 +3,6 @@ Name: Brianna Joyner
 lab6.py
 """
 
-
 def name_reverse():
     name = input("Enter your name in first-last order: ")
     name = name.split()
