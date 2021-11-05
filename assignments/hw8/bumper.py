@@ -3,7 +3,7 @@ Name: Brianna Joyner
 bumper.py
 
 Problem:
-This program creates a random generation of ball movements.
+This program creates a random generation of ball movements across a window.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work, with help from Angela and the CSL.
