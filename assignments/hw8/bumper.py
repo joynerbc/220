@@ -56,14 +56,31 @@ def main():
     circle_one.draw(win)
     circle_two = Circle(Point(150, 200), 50)
     circle_two.draw(win)
-    dy = 10
-    dx = 10
-    while win.getMouse() == None:
-        while
-            circle_one.move(dy, dx)
-            circle_two.move(dy, dx)
-            time.sleep(.1)
-            get_random()
+    dy = get_random(40)
+    dx = get_random(40)
+    get_random(40)
+    for i in range():
+        circle_two.move(dx, dy)
+        time.sleep(.5)
+    randint(-40, 40)
+    did_collide(circle_one, circle_two)
+    if hit_vertical(Circle, win):
+        dy = dy * -1
+        return dy
+    elif did_collide(circle_one, circle_two):
+        dx = dx * -1
+        return dx
+    elif did_collide(circle_one, circle_two):
+        dy = dy * -1
+        return dy
+    elif hit_horizontal(Circle, win):
+        dx = dx * -1
+        return dx
+    acc = 0
+    while not hit_vertical(circle_one, win) or hit_horizontal(circle_two, win):
+        get_random_color()
+        acc = acc + circle_one.move(20, 200)
+        return acc
     win.getMouse()
     win.close()
 
